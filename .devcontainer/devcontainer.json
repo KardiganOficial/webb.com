@@ -1,0 +1,266 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
+<!DOCTYPE html>
+<head>
+    <link rel="shortcut icon" href="https://i.ibb.co/ky2Sghr/IMG-20231010-WA0120.jpg" alt="IMG-20231010-WA0120" type="image/x-icon">
+    <title>Kardigan</title>
+    <style>
+         h1{
+      animation: mover 1s ease-in-out infinite alternate;
+      }
+      @keyframes mover{
+       from{
+          transform: translateX(0);
+          }
+          to{
+            transform: translateX(50px);}
+            }
+       body{
+        font-family: Arial, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-color: #fffffff5;
+        border: 20px solid  #052274;
+    } 
+    header {
+    background-color: #052274;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+   text-align:  right;
+   }
+    .left{
+        float: left;
+        margin-right: 10px;
+        }
+        .right{
+            float: right;
+            margin-left: 10px;
+            }
+       main{
+        margin: 20px;
+    }
+       h1{
+        color:#333;
+        text-align: center;
+        margin-bottom: 10px;
+        margin:10;
+        padding: 10;
+    }
+       p{
+        color: #333;
+        margin-bottom: 50px;
+        margin-right:80px;
+        margin-left: 80px;
+    }
+       img{
+        display: block;
+        float: right;
+        margin: 30px;
+    }
+    .img{
+        margin-right: 10px;
+        width: 60%;
+        }
+        .container{
+        float: left 5px;
+        display:flex;
+        align-items: center;
+        text-align: center;
+        padding: 150px;
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        }
+    .container img{
+         margin-right: 0px;
+            }
+    .text{
+        margin-left: 20px;
+        margin-top: 10px;
+       margin-bottom: 10px;
+        float: left;
+        width: 50%;
+        word-wrap: break-word;
+        margin: 10;
+        padding: 0;
+        }
+    h3{
+        padding: 50px;
+        margin: 0;
+        padding: 0;
+        }  
+        .contenedor-comentarios{
+            display: flex;
+        }
+     .comentario{
+        background-color: #f1f1f1;
+        padding: 5px;
+        border:100%;
+        width: 600px;
+        height: 600px;
+        margin: 30px;
+        border: 10px solid  #052274;
+        margin-right:60px;
+        overflow:auto;
+        }
+     .nombre{
+        font-weight: bold;
+        }   
+    .contenido{
+        color:#555;
+        }
+    .contenedor-titulos{
+        display: flex;
+        }
+    .titulo{
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-right: 50px;  
+        text-align: center;
+        }
+    .titulo:hover{
+        transform:rotate(360deg);
+        }
+    .titulo::selection{
+        background-color: #ffcc00;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+    .social-bottons{
+        display: inline-block;
+        align-items:10px;
+        margin-right: 5px;
+        margin-left: 10px;
+        }
+    .social-bottons{
+        margin-right: 5px;
+        }    
+    .menu {
+            text-align: left;
+        }
+    .menu ul{
+            list-style: none;
+            margin:20px;
+            padding: 20px;
+        }
+    .menu ul li{
+            display: inline-block; 
+        }
+    .menu ul li a{
+            color:  #052274;
+            display: block;
+            padding: 100px;
+        } 
+    .menu ul li a:hover{
+        background-color: #002fff;
+        color: #ccc;
+    }    
+    </style>
+</head>
+<body>
+<html>
+    <header>
+    <div>
+        <a><img src="https://i.ibb.co/64QwKg6/IMG-20231010-WA0121.jpg" alt="IMG-20231010-WA0121" width="100px" height="100px" style="float:left;"></a>
+        <center><h1 id="nombre" span style="color: #ccc;">Kardigan</h1></center>
+    </div>
+        <div id="menu">
+            <ul>
+        <li><a href="#titulo 1" class="titulo" span style="color: rgb(0, 0, 0)">Producto</a></li>
+        <br>
+        <br>
+        <br>
+        <li><a href="#titulo 2" class="titulo" span style="color: rgb(0, 0, 0)">Cont&aacutectanos</a></li>
+    </ul>
+        </div>
+    </div>
+    </header>
+            <div>
+        <div class="container">
+            <img src="https://i.ibb.co/1Xx4R82/197228467-collage-de-agricultura-tractor-trabajando-en-el-campo.jpg" alt="197228467-collage-de-agricultura-tractor-trabajando-en-el-campo" class="left" style="width: 40%;">
+            <br>
+            <br>
+            <img src="https://i.ibb.co/KLmYkpR/campesinos-cubanos.jpg" alt="campesinos-cubanos" class="right" style="width: 48%;">
+        </div>
+        <div class="container">
+            <p span style="color: #000000;"><span style="font-family:'Didot',serif;"><span style="font-size: 20px;">Misi&oacuten<br>Nuestra misi&oacuten es producir y comercializar productos con materia prima poco conocida o consumida para la poblaci&oacuten y asi mismo estar&iacuteamos fomentando m&aacutes producci&oacuten de esta promoviendo una alimentaci&oacuten versatil y saludable.  Nos comprometemos a utilizar ingredientes de alta calidad y t&eacutecnicas de producci&oacuten sostenibles para ofrecer productos nutritivos y deliciosos.</p>
+            <p span style="color: #000000;"><span style="font-family:'Didot',serif;"><span style="font-size: 20px;">Visi&oacuten<br>Nuestra visi&oacuten es convertirnos en la empresa l&iacuteder en la produccion y comercializaci&oacuten de productos usando la como ingrediente principal siendo algo innovador a nivel mundial. Aspiramos y nos visionamos siendo ser reconocidos por ofrecer productos saludables y deliciosos que satisfagan las necesidades y preferencias de nuestros consumidores.</p>
+        </div>
+        <div class="container">  
+    </div>
+    <div class="container">
+        <center><img src="https://i.ibb.co/64QwKg6/IMG-20231010-WA0121.jpg" alt="IMG-20231010-WA0121" width="400" height="300"></center>
+        <div class="kardigan">
+           <br>
+            <p style="font-size: 20px;"><span style="color: #002fff;">Somos una micro-empresa innovadora creadora de productos diferentes con materia prima poco com&uacuten, aprovechando y as&iacute mismo cuidando los recursos que el planeta tierra nos otorga usando todo lo que est&aacute a nuestro alcance para brindar a la comunidad productos sanos y de calidad.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text"> 
+            <p style="font-size: 26px;"><span style="color: #7e360c;">CREADO POR KARDIGAN - EMPRESA DE INNOVACI&OacuteN Y CONFIANZA<br><br><br><p style="font-size: 50px"><span style="color: #7e360c;"><span style="font-family:GComic Sans;">CAMOTICOS</p>
+        </div>
+        <div class="img">
+        <img src="https://i.ibb.co/1b6819P/IMG-20231010-WA0119.jpg" alt="IMG-20231010-WA0119" style="width: 50%;" style="float:right; margin-right:50px;">
+</div>
+    </div>
+    <p style="font-size: 26px;"><span style="font-family: Copperplate;"><span style="color: #000000;">Este producto fue creado por manos de artesanos que un d&iacutea se les ocurri&oacute la idea de hacer un cereal y buscaron varias opciones que hicieran que este producto fuera tanto sano, como rico para ni&ntildeos y adultos; de all&iacute surgi&oacute la idea de usar el tub&eacuterculo llamado cient&iacuteficamente ipomoea batatas, o mejor conocido como batata. <br><br>
+        En primera instancia &eacutesta idea ocurri&oacute en base a la necesidad de usar materias primas poco comunes en el mercado y poco consumidas por el p&uacuteblico y que mejor opci&oacuten que la batata, ya que este tub&eacuterculo es contiene nutrientes como calcio, f&oacutesforo, magnesio,  potasio, vitamina A y C. Aunado a esto su sabor tiende a ser un poco dulce porque contiene un aproximado de 7.5% en az&uacutecares y qu&eacute mejor que un cereal que contenga un sabor dulce natural sin tantos productos procesados da&ntildeinos para la salud. </p>
+        <h2 id="titulo 1" style="padding-left: 100px;"><span style="font-family: Copperplate;"><span style="color: #913906;">Producto</h2>
+        </div>
+         </div>
+        <h1>Comentarios de nuestros clientes</h1> 
+    <div class="contenedor-comentarios">
+    <div class="comentario">
+        <p class="nombre">Josefina G&aacutercia</p>
+        <p class="contenido" style="font-size: 18px;">"Yo como madre de hogar este cereal me parece una opcion ideal para un desayuno rapido y nutritivo".</p>
+    </div>   
+        <div class="comentario">
+        <p class="nombre">Mauricio Per&eacutez</p>
+        <p class="contenido" span style="font-size: 18px">"Me encanta, un sabor exquisito y con una variedad de presentaciones, ideal para ni&ntildeos y adultos".</p>
+    </div>   
+    <div class="comentario">
+    <p class="nombre">Paola ni&ntilde;o</p>
+    <p class="contenido" style="font-size: 14px;">"Es una alternativa perfecta para mis meriendas o momentos de anciedad en los que quiero comer, aun mas con saber que son hechos con ingredientes de la naturaleza".</p>
+    </div> 
+    </div>
+    <h2 id="titulo 2" span style="padding-left: 100px;"><span style="font-family:Copperplate;"><span style="color: #913906;">Cont&aacutectanos</h2>
+        <a href="https://ibb.co/cLkHnj4"><img src="https://i.ibb.co/WtGwJLm/IMG-20231010-WA0120.jpg" alt="IMG-20231010-WA0120" width="300px" height="300px"></a>
+        <h3 style="padding-left: 50px;">Direcci&oacuten</h3>
+        <p span style="font-size: 20px;" span style="color: rgb(0, 0, 0);">Tariba, Municipio c&aacuterdenas, T&aacutechira, Venezuela</p>
+        <br>
+            <h3 style="padding-left: 50px;">Email</h3>
+            <p span style="font-size: 20px;" span style="color: rgb(0, 0, 0);">kardiganoficial1@gmail.com</p>
+            <h3 style="padding-left: 50px;">Tel&eacutefono</h3>
+            <p span style="font-size: 20px;" span style="color: rgb(0, 0, 0);">+58 424-7470908</p>
+            <h3 style="padding-left: 50px;">Redes sociales</h3>
+            <div class="social-bottons">
+                <a href="https://www.facebook.com/profile.php?id=100092856664752" target="_blank"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png" width="80" height="80"><class="fa fa-facebook"></class></a>
+                <a href="https://www.instagram.com/kardiganoficial1/" target="_blank"><img src="https://img.freepik.com/vector-premium/icono-instagram-logotipo-insignia-moderna_578229-124.jpg" width="80" height="80"><class="fa fa-instagram></class></a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>    
+            <footer>
+            <center><p span style="color: blue">&copy; 2023 Cereales de KDN SA. todos los derechos reservados</p></center>
+        </footer>
+</footer>
+    <footer>
+        <center><p span style="color: blue">&copy; Creado por Kardigan.</p></center>
+   </footer>
+</html>
